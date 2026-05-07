@@ -1,0 +1,32 @@
+export const productProfile = {
+  "repository": "system-game-design-pattern-dictionary",
+  "title": "システム・ゲーム開発デザインパターン辞書",
+  "domain": "Dictionary",
+  "hostApp": null,
+  "rank": 87,
+  "tier": "P3",
+  "ideaNo": 3,
+  "overview": "システム開発やゲーム開発で使うデザインパターン、アーキテクチャパターン、ゲームループ、ECS、状態管理、イベント駆動、データ駆動設計などを辞書化する。背景、関連パターン、避けるべき場面、実装例、トレードオフを学べる。",
+  "problem": "パターン名は知っていても、実際のプロジェクトでいつ採用し、いつ避けるべきか判断しづらい。",
+  "differentiation": "システム開発とゲーム開発の両方を横断し、パターン間の関係と失敗例をタグで比較できる。",
+  "publish": "GitHub Pages / GitHub Release",
+  "surface": "static pattern dictionary site + CLI validation core",
+  "entity": "design pattern entry",
+  "requiredFields": [
+    "id",
+    "title",
+    "patternType",
+    "problemContext",
+    "tradeoff",
+    "avoidWhen"
+  ],
+  "warningField": "exampleReference",
+  "qcdsManualTestCap": "S-",
+  "qcdsTarget": "A-",
+  "benchmarkRepos": [
+    "Sunmax0731/listing-delivery-asset-checklist",
+    "Sunmax0731/codex-remote-android",
+    "Sunmax0731/release-output-check-flow",
+    "Sunmax0731/movie-telop-transcriber"
+  ]
+};

@@ -1,0 +1,22 @@
+{
+  "product": {
+    "repository": "system-game-design-pattern-dictionary",
+    "title": "システム・ゲーム開発デザインパターン辞書"
+  },
+  "items": [
+    {
+      "id": "system-game-design-pattern-dictionary-happy",
+      "title": "システム・ゲーム開発デザインパターン辞書 happy",
+      "status": "ready",
+      "tags": [
+        "dictionary",
+        "closed-alpha"
+      ],
+      "patternType": "Architecture",
+      "problemContext": "状態遷移が複雑",
+      "tradeoff": "抽象化で小規模実装は重くなる",
+      "avoidWhen": "単純な一画面ツール",
+      "exampleReference": "ゲームループ例を追加予定"
+    }
+  ]
+}

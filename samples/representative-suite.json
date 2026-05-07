@@ -1,0 +1,126 @@
+[
+  {
+    "id": "happy-path",
+    "purpose": "システム・ゲーム開発デザインパターン辞書 の正常入力を検証する",
+    "items": [
+      {
+        "id": "system-game-design-pattern-dictionary-happy",
+        "title": "システム・ゲーム開発デザインパターン辞書 happy",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "patternType": "Architecture",
+        "problemContext": "状態遷移が複雑",
+        "tradeoff": "抽象化で小規模実装は重くなる",
+        "avoidWhen": "単純な一画面ツール",
+        "exampleReference": "ゲームループ例を追加予定"
+      }
+    ],
+    "expected": {
+      "result": "passed",
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "missing-required",
+    "purpose": "必須項目不足を error として検出する",
+    "items": [
+      {
+        "id": "system-game-design-pattern-dictionary-missing",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "patternType": "Architecture",
+        "problemContext": "状態遷移が複雑",
+        "tradeoff": "抽象化で小規模実装は重くなる",
+        "avoidWhen": "単純な一画面ツール",
+        "exampleReference": "ゲームループ例を追加予定"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "warning",
+    "purpose": "推奨項目不足を warning として検出する",
+    "items": [
+      {
+        "id": "system-game-design-pattern-dictionary-warning",
+        "title": "システム・ゲーム開発デザインパターン辞書 warning",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "patternType": "Architecture",
+        "problemContext": "状態遷移が複雑",
+        "tradeoff": "抽象化で小規模実装は重くなる",
+        "avoidWhen": "単純な一画面ツール"
+      }
+    ],
+    "expected": {
+      "result": "warning",
+      "errors": 0,
+      "warnings": 1
+    }
+  },
+  {
+    "id": "mixed-batch",
+    "purpose": "正常、必須不足、警告を同一バッチで集計する",
+    "items": [
+      {
+        "id": "system-game-design-pattern-dictionary-happy",
+        "title": "システム・ゲーム開発デザインパターン辞書 happy",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "patternType": "Architecture",
+        "problemContext": "状態遷移が複雑",
+        "tradeoff": "抽象化で小規模実装は重くなる",
+        "avoidWhen": "単純な一画面ツール",
+        "exampleReference": "ゲームループ例を追加予定"
+      },
+      {
+        "id": "system-game-design-pattern-dictionary-missing",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "patternType": "Architecture",
+        "problemContext": "状態遷移が複雑",
+        "tradeoff": "抽象化で小規模実装は重くなる",
+        "avoidWhen": "単純な一画面ツール",
+        "exampleReference": "ゲームループ例を追加予定"
+      },
+      {
+        "id": "system-game-design-pattern-dictionary-warning",
+        "title": "システム・ゲーム開発デザインパターン辞書 warning",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "patternType": "Architecture",
+        "problemContext": "状態遷移が複雑",
+        "tradeoff": "抽象化で小規模実装は重くなる",
+        "avoidWhen": "単純な一画面ツール"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 1
+    }
+  }
+]
