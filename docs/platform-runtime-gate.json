@@ -1,0 +1,13 @@
+{
+  "product": "system-game-design-pattern-dictionary",
+  "title": "システム・ゲーム開発デザインパターン辞書",
+  "domain": "Dictionary",
+  "ideaNo": 3,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}

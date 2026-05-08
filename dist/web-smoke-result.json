@@ -1,23 +1,15 @@
 {
-  "command": "node tools/web-smoke.mjs",
-  "nonBlank": true,
-  "checks": [
-    {
-      "id": "html-nonblank",
-      "pass": true
-    },
-    {
-      "id": "app-marker",
-      "pass": true
-    },
-    {
-      "id": "css-nonblank",
-      "pass": true
-    },
-    {
-      "id": "title-present",
-      "pass": true
-    }
-  ],
-  "manualTestSeparated": true
+  "product": "system-game-design-pattern-dictionary",
+  "result": "passed",
+  "method": "chrome-headless-file-screenshot",
+  "browser": "chrome.exe",
+  "index": "public/index.html",
+  "checks": {
+    "nonBlankScreenshot": true,
+    "htmlHasContent": true,
+    "productMarker": true,
+    "noFrameworkOverlay": true
+  },
+  "screenshotBytesStableThreshold": ">1000",
+  "manualBrowserTest": "not-run-by-codex"
 }
